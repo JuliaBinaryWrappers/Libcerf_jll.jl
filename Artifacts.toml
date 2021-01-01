@@ -1,0 +1,115 @@
+[[Libcerf]]
+arch = "aarch64"
+git-tree-sha1 = "5963b8e5f30d7b351ebeb43b487b788814279a6b"
+libc = "glibc"
+os = "linux"
+
+    [[Libcerf.download]]
+    sha256 = "f9c8e4215661c68fda62890ed5ad4191ca5c111efbedb32a2c448bf4f2edf0f7"
+    url = "https://github.com/JuliaBinaryWrappers/Libcerf_jll.jl/releases/download/Libcerf-v1.14.0+0/Libcerf.v1.14.0.aarch64-linux-gnu.tar.gz"
+[[Libcerf]]
+arch = "aarch64"
+git-tree-sha1 = "d18637758ca8424fe34c1bbdf218fcda46391659"
+libc = "musl"
+os = "linux"
+
+    [[Libcerf.download]]
+    sha256 = "c30145a024d104c6b271a6483de394b73026751dcccca87deeae37d1ebc880c3"
+    url = "https://github.com/JuliaBinaryWrappers/Libcerf_jll.jl/releases/download/Libcerf-v1.14.0+0/Libcerf.v1.14.0.aarch64-linux-musl.tar.gz"
+[[Libcerf]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "79460ed51207bf7cd793998917cb31b908c3a59f"
+libc = "glibc"
+os = "linux"
+
+    [[Libcerf.download]]
+    sha256 = "99c5b13b5e9f7743083a2c5e7b19ef8f525f4d4fa6185a8b5ad39d7faacbf481"
+    url = "https://github.com/JuliaBinaryWrappers/Libcerf_jll.jl/releases/download/Libcerf-v1.14.0+0/Libcerf.v1.14.0.armv7l-linux-gnueabihf.tar.gz"
+[[Libcerf]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "784d39bbbef8b960434b845ed5e79453fb2d8972"
+libc = "musl"
+os = "linux"
+
+    [[Libcerf.download]]
+    sha256 = "ca3e063419df8a5c7bc306de0f85f9478794fef4bfe6514a380068a47ebe21f5"
+    url = "https://github.com/JuliaBinaryWrappers/Libcerf_jll.jl/releases/download/Libcerf-v1.14.0+0/Libcerf.v1.14.0.armv7l-linux-musleabihf.tar.gz"
+[[Libcerf]]
+arch = "i686"
+git-tree-sha1 = "0e8ddea914344ec4f0e67243c0636d51d72ac0b6"
+libc = "glibc"
+os = "linux"
+
+    [[Libcerf.download]]
+    sha256 = "08948adde2b894daa933d218203cc667946c9f3fe4b1c12bd50ab1a6ec123ab4"
+    url = "https://github.com/JuliaBinaryWrappers/Libcerf_jll.jl/releases/download/Libcerf-v1.14.0+0/Libcerf.v1.14.0.i686-linux-gnu.tar.gz"
+[[Libcerf]]
+arch = "i686"
+git-tree-sha1 = "aaa464cb2f60773dbd09bb63ce3dc506889027b9"
+libc = "musl"
+os = "linux"
+
+    [[Libcerf.download]]
+    sha256 = "33f634bac30a16f4ebf127fca80ed52b97d6498c09e3ffa89283118044f76c00"
+    url = "https://github.com/JuliaBinaryWrappers/Libcerf_jll.jl/releases/download/Libcerf-v1.14.0+0/Libcerf.v1.14.0.i686-linux-musl.tar.gz"
+[[Libcerf]]
+arch = "i686"
+git-tree-sha1 = "630902dbc3a8d118a8b6a58b74ee71d6a8c77727"
+os = "windows"
+
+    [[Libcerf.download]]
+    sha256 = "f07583064e89b3349cb28be620a44dad5468ce3e8fcfcb870f6f4c14f7d98cca"
+    url = "https://github.com/JuliaBinaryWrappers/Libcerf_jll.jl/releases/download/Libcerf-v1.14.0+0/Libcerf.v1.14.0.i686-w64-mingw32.tar.gz"
+[[Libcerf]]
+arch = "powerpc64le"
+git-tree-sha1 = "a828374fb94411f791cc0444b68cd533ae14a33b"
+libc = "glibc"
+os = "linux"
+
+    [[Libcerf.download]]
+    sha256 = "b3532598497381eb10ac8a73a60da9599b194d5067a3c7a1f8a1112573cc25e1"
+    url = "https://github.com/JuliaBinaryWrappers/Libcerf_jll.jl/releases/download/Libcerf-v1.14.0+0/Libcerf.v1.14.0.powerpc64le-linux-gnu.tar.gz"
+[[Libcerf]]
+arch = "x86_64"
+git-tree-sha1 = "21895d336920fd3a1f6d166a80dfc7ee538e79ea"
+os = "macos"
+
+    [[Libcerf.download]]
+    sha256 = "3800d76979d87f083716c532c39db48798996a9f8f9fdbea3a6394e463d93ca3"
+    url = "https://github.com/JuliaBinaryWrappers/Libcerf_jll.jl/releases/download/Libcerf-v1.14.0+0/Libcerf.v1.14.0.x86_64-apple-darwin.tar.gz"
+[[Libcerf]]
+arch = "x86_64"
+git-tree-sha1 = "c1aeacd3e3e786148fc877b4f5e7850a86a487fa"
+libc = "glibc"
+os = "linux"
+
+    [[Libcerf.download]]
+    sha256 = "4668cdba88e7fe3a8f76aec2a4c1c1d8618ce1c2d70168ad29ff93848c7bd28b"
+    url = "https://github.com/JuliaBinaryWrappers/Libcerf_jll.jl/releases/download/Libcerf-v1.14.0+0/Libcerf.v1.14.0.x86_64-linux-gnu.tar.gz"
+[[Libcerf]]
+arch = "x86_64"
+git-tree-sha1 = "01196d6bc4cdbad985fd9cc2af381d8b8c10246e"
+libc = "musl"
+os = "linux"
+
+    [[Libcerf.download]]
+    sha256 = "7bc3bab5b7396fae2758e309ab39c91b24ab439ee5a87d815d2dd339c4baea79"
+    url = "https://github.com/JuliaBinaryWrappers/Libcerf_jll.jl/releases/download/Libcerf-v1.14.0+0/Libcerf.v1.14.0.x86_64-linux-musl.tar.gz"
+[[Libcerf]]
+arch = "x86_64"
+git-tree-sha1 = "54332593fe32ee374cd7d6ec405a6e7e69c5993a"
+os = "freebsd"
+
+    [[Libcerf.download]]
+    sha256 = "a2016e77c72294e28b0108091504b1e1263fbb5e7e81ee18cf91593f48beb587"
+    url = "https://github.com/JuliaBinaryWrappers/Libcerf_jll.jl/releases/download/Libcerf-v1.14.0+0/Libcerf.v1.14.0.x86_64-unknown-freebsd.tar.gz"
+[[Libcerf]]
+arch = "x86_64"
+git-tree-sha1 = "b2c7af465be1cd57ffa36ee1aa13759940135376"
+os = "windows"
+
+    [[Libcerf.download]]
+    sha256 = "efa4ce9bd6d26bf443c3554fe7bb2944fd7a5e878b8942164592ed7b748dc99a"
+    url = "https://github.com/JuliaBinaryWrappers/Libcerf_jll.jl/releases/download/Libcerf-v1.14.0+0/Libcerf.v1.14.0.x86_64-w64-mingw32.tar.gz"
