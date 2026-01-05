@@ -2,12 +2,12 @@
 export libcerf
 
 JLLWrappers.@generate_wrapper_header("Libcerf")
-JLLWrappers.@declare_library_product(libcerf, "@rpath/libcerf.1.dylib")
+JLLWrappers.@declare_library_product(libcerf, "@rpath/libcerf.2.dylib")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libcerf,
-        "lib/libcerf.1.17.dylib",
+        "lib/libcerf.2.5.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

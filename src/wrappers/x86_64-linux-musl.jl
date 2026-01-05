@@ -2,7 +2,7 @@
 export libcerf
 
 JLLWrappers.@generate_wrapper_header("Libcerf")
-JLLWrappers.@declare_library_product(libcerf, "libcerf.so.1")
+JLLWrappers.@declare_library_product(libcerf, "libcerf.so.2")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
